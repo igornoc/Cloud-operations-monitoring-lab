@@ -180,7 +180,3 @@ All screenshots in this repository were captured from the fully working local en
 ## 👤 Author
 
 **Igor Moreira**
-
-## 💼 CV Bullet
-
-Built a containerized cloud monitoring system using Prometheus and Grafana, implementing real-time service health tracking, latency analysis, and incident simulation across multiple endpoints.
