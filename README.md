@@ -32,32 +32,13 @@ Prometheus → Blackbox Exporter → API Endpoints
 ## 📁 Project Structure
 
 ```text
-cloud-operations-monitoring-lab/
+Cloud-operations-monitoring-lab/
 │
+├── dashboards/
 ├── demo_api/
 │   ├── app.py
 │   ├── Dockerfile
 │   └── requirements.txt
-│
-├── monitoring/
-│   ├── blackbox/
-│   │   └── blackbox.yml
-│   ├── grafana/
-│   │   ├── dashboards/
-│   │   │   └── starter_dashboard.json
-│   │   └── provisioning/
-│   │       ├── dashboards/
-│   │       └── datasources/
-│   └── prometheus/
-│       └── prometheus.yml
-│
-├── scripts/
-│   ├── alerting.py
-│   ├── detect_incidents.py
-│   ├── generate_logs.py
-│   ├── generate_ticket.py
-│   ├── uptime_check.py
-│   └── visualize_metrics.py
 │
 ├── images/
 │   ├── dashboard_overview.png
@@ -66,9 +47,12 @@ cloud-operations-monitoring-lab/
 │   ├── prometheus_query_probe_success.png
 │   └── prometheus_targets.png
 │
+├── monitoring/
+├── scripts/
+├── .gitignore
 ├── docker-compose.yml
-├── requirements.txt
-└── README.md
+├── README.md
+└── requirements.txt
 ```
 
 ## 📊 Monitoring Dashboard
